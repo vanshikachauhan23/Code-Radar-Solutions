@@ -3,8 +3,8 @@
 int main(){
     float pi = 3.14;
     float area;
-    char r[10];
-    scanf("%s",&r);
+    char r;
+    scanf("%c",&r);
     area = (float)(pi * (int)r * (int)r);
     printf("Area: %.2f", area);
 
