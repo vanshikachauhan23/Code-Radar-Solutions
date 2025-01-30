@@ -3,9 +3,9 @@
 int main(){
     float pi = 3.14;
     float area;
-    int r;
-    scanf("%d", &r);
-    area = (float)pi * r * r;
+    char r[10];
+    scanf("%s",&r);
+    area = pi * (int)r * (int)r;
     printf("Area: %.2f", area);
 
     return 0;
