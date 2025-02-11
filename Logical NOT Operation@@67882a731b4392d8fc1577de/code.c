@@ -2,14 +2,13 @@
 int main(){
     int num1;
     scanf("%d",&num1);
-    if!(num1 > 0)
+    if(!(num1 >0))
     {
-        printf("False");
-
+        printf("True");
     }
     else
     {
-        printf("True");
+        printf("False");
     }
     return 0;
     }
