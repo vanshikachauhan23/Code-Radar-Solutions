@@ -9,11 +9,11 @@ int main()
     }
     else if(var >= 'a' && var <='z')
     {
-        printf("Lowercase")
+        printf("Lowercase");
 
     }
     else{
-        printf("Not an alphabet")
+        printf("Not an alphabet");
     }
     return 0;
 
