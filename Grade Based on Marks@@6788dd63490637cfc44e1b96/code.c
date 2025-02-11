@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    char var;
-    scanf("%c",&var);
+    int var;
+    scanf("%d",&var);
     if(var >=90)
     {
         printf("A");
