@@ -7,12 +7,13 @@ int main(){
         printf("%d",num1);
 
     }
-    else if(num2 > num1 || num2 > num3)
+    else if(num2 > num1 && num2 > num3)
     {
         printf("%d",num2);
 
     }
-    else{
+    else
+    {
         printf("%d",num3);
     }
     return 0;
