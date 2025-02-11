@@ -1,24 +1,22 @@
-#include<stdio.h>
-int main()
-{
-    char var;
-    scanf("%c",&var);
-    if(var in 'aeiou' || var in 'AEIOU')
-    {
-        printf("Vowel");
+#include <stdio.h>
+#include <string.h>
 
-    }
-    else if(var >=0 || var <=9)
-    {
-        printf("digit");
-    }
-    else if(var in '#@$%&')
-    {
+int main() {
+    char var;
+    scanf("%c", &var);
+
+    if (strchr("aeiouAEIOU", var)) {
+        printf("Vowel");
+    } 
+    else if (var >= '0' && var <= '9') {
+        printf("Digit");
+    } 
+    else if (strchr("#@$%&", var)) {
         printf("Special Character");
-    }
-    else{
+    } 
+    else {
         printf("Consonant");
     }
-    return 0;
 
+    return 0;
 }
