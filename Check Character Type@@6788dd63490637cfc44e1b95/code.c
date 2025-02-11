@@ -9,7 +9,7 @@ int main()
         printf("Vowel");
 
     }
-    else if(var >= '0' && var <= '9');
+    else if(var >= '0' && var <= '9')
     {
         printf("Digit");
 
