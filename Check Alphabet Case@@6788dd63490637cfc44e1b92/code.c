@@ -3,7 +3,7 @@ int main()
 {
     char var;
     scanf("%c",&var);
-    if(var >= 'A' && var <= 'z')
+    if(var >= 'A' && var <= 'Z')
     {
         printf("Uppercase");
     }
@@ -12,7 +12,8 @@ int main()
         printf("Lowercase");
 
     }
-    else{
+    else
+    {
         printf("Not an alphabet");
     }
     return 0;
