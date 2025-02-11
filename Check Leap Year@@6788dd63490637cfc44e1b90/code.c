@@ -7,7 +7,10 @@ int main()
     {
         if(num % 400 == 0)
         {
-            printf("Leap Year");
+            if(num % 100 ==0)
+            {
+                printf("Leap Year");
+            }
         }
     }
     else
