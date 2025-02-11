@@ -1,8 +1,8 @@
 #include<stdio.h>
-int main(
+int main{
     int num;
     scanf("%d",&num);
-    if(num >=60)
+    if(num>=60)
     {
         printf("Eligible");
     }
@@ -10,4 +10,4 @@ int main(
     {
         printf("Not Eligible");
     }
-)
+}
