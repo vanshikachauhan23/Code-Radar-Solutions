@@ -12,7 +12,7 @@ int main(){
     }
     else if(var >= 70 && var < 80)
     {
-        printf("C")
+        printf("C");
 
     }
     else if(var>=60 && var < 70)
@@ -21,7 +21,7 @@ int main(){
     }
     else
     {
-        printf("F")
+        printf("F");
     }
     return 0;
 }
