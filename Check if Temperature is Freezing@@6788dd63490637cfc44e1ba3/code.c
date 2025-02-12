@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int num1, 
+    int num1; 
     scanf("%d",&num1);
     if(num <=0)
     {
@@ -11,5 +11,5 @@ int main()
     else
     {
         printf("Above Freezing");    
-        }
+    }
 }
