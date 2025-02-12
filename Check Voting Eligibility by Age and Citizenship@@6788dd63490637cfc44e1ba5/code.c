@@ -15,6 +15,6 @@ int main()
      } 
     }
     else{
-        printf("Eligible");
+        printf(" Not Eligible");
     }
 }
