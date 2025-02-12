@@ -11,11 +11,7 @@ int main()
             break;
         }
     
-    else
-    {
-        printf("Prime")
-        break;
     }
-    }
+    printf("Prime");
     
 }
