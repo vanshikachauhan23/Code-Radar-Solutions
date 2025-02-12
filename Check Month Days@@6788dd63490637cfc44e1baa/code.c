@@ -53,7 +53,8 @@ int main()
         printf("31");
         
     }
-    else{
-        printf("Invalid month")
+    else
+    {
+        printf("Invalid month");
     }
 }
