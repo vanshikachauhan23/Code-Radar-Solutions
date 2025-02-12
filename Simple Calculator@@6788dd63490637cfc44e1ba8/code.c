@@ -18,9 +18,9 @@ int main()
     }
     else if( var == '/')
     {
-        if(b ==0)
+        if(b==0)
         {
-            priintf("error");
+            printf("error");
 
         }
         else
