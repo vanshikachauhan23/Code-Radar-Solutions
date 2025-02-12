@@ -16,11 +16,16 @@ int main()
     {
         printf("%d",a*b);
     }
-    else if (var == '/') {
-        if (b == 0) {
-            printf("error");
-        } else {
-            printf("%d", a / b);
+    else if( var == '/')
+    {
+        if(b ==0)
+        {
+            priintf("error");
+
+        }
+        else
+        {
+            printf("%d",a/b);
         }
     }
 }
