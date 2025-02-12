@@ -9,5 +9,5 @@ int main()
     }
     else if((num1 >0 && num2<0) || (num1 < 0 && num2 > 0))
     {
-      printf("Different Sign")
+      printf("Different Sign");
     }
