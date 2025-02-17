@@ -16,13 +16,13 @@ int main() {
     unsigned int num;
 
     // Input a number from the user
-    printf("Enter a number: ");
+   
     scanf("%u", &num);
 
     // Call the function to count trailing zeroes
     int trailingZeroes = countTrailingZeroes(num);
 
-    printf("Number of trailing zeroes in binary representation of %u: %d\n", num, trailingZeroes);
+    printf("%d\n", num, trailingZeroes);
 
     return 0;
 }
