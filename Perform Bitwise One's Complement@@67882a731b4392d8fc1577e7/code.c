@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int num, a;
+    unsigned int num, a;
     a = ~num;
-    printf("%d",a);
+    printf("%u",a);
     return 0;
 }
