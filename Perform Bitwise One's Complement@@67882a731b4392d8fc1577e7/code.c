@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    unsigned int num, a;
+    int num, a;
+    scanf("%d",&num);
     a = ~num;
-    printf("%u",a);
+    printf("%d",a);
     return 0;
 }
