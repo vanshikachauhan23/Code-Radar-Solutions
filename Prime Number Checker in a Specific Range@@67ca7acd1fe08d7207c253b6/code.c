@@ -6,7 +6,7 @@ int PrimeInRanges(int a,int b)
       {
         return 0;
       }
-      printf(" %d",i)
+      printf(" %d",i);
     }
 
 }
