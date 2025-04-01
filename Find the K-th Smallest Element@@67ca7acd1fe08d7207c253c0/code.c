@@ -6,5 +6,4 @@ void kthSmallest(int arr[],int n , int t)
     if(min<t)
     min = t;
     }
-   } 
-}
+} 
