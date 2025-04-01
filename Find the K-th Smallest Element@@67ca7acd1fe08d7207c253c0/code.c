@@ -12,7 +12,7 @@ void sortArray(int arr[], int n) {
 }
 
 // Function to find the K-th smallest element
-int KthSmallest(int arr[], int n, int k) {
+int kthSmallest(int arr[], int n, int k) {
     if (k <= 0 || k > n) {
         return -1; // K is out of range
     }
