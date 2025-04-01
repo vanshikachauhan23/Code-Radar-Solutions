@@ -4,9 +4,11 @@ void printPrimeInRanges(int a,int b)
     {
       if(b%i==0)
       {
-        return 0;
+        b++;
+        continue
       }
       printf(" %d",i);
+      
     }
 
 }
