@@ -4,8 +4,8 @@ void printPrimeInRanges(int a,int b)
     {
       if(b%i==0)
       {
-        b++;
-        continue
+        i++;
+        continue;
       }
       printf(" %d",i);
       
