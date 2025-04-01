@@ -1,5 +1,5 @@
 int fab(int n);
-void fabonacciSeries(int n)
+void fibonacciSeries(int n)
 {
     for(int i=0;i<n;i++)
     {
